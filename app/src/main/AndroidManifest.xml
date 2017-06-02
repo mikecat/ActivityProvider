@@ -19,6 +19,7 @@
         <activity android:name=".PublicActivity">
             <intent-filter>
                 <action android:name="jp.ac.titech.itpro.sdl.activityprovider.SELECT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
     </application>
